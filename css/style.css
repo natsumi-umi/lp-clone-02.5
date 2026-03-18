@@ -48,16 +48,48 @@ a {
     background-color: #fff;
     box-shadow: 0 10px 8px #00000014;
 } */
+.main-nav a:hover {
+    color: var(--main);
+}
 .login, .nav-cta {
     border-radius: 0px;
+}
+.login:hover {
+    background-color: var(--btn-hover);
+    transition: 0.3s;
+}
+.nav-cta:hover {
+    background-color: var(--cta-hoverr);
+    transition: 0.3s;
 }
 
 /* main
 ------------------------------ */
+/* hero */
 .hero-background {
-    background-color: cadetblue;
+    min-height: 592px;
+    background: linear-gradient(180deg, #1FB9C3, #1fa9c3);
+}
+.hero-left {
+    color: #fff;
+}
+.hero-left h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 68px;
+}
+.hero-left span {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 34px;
+    vertical-align: top;
+
+}
+.hero-left p {
+    font-weight: 700;
 }
 
+/* blog */
 .blog-more {
     color: #67737c;
     background-color: #fff;

@@ -16,10 +16,14 @@ img {
     padding: 0 20px;
 }
 .btn {
+    display: inline-block;
+    text-align: center;
     line-height: 19px;
     padding: 9.6px;
 }
 .cta {
+    display: inline-block;
+    text-align: center;
     line-height: 19px;
     padding: 9.6px;
 }
@@ -59,22 +63,37 @@ header {
     padding: 0 10px;
 }
 .login {
-    display: inline-block;
-    text-align: center;
     width: 100px;
     padding: 14.5px 0;
 }
 .nav-cta {
-    display: inline-block;
-    text-align: center;
     width: 160px;
     padding: 14.5px 0;
 }
 
 /* main
 ------------------------------ */
+.hero-background {
+    display: flex;
+    align-items: center;
+}
 .hero-layout {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left {
+    padding: 50px 0 54px;
+}
+.hero-left h1 {
+    margin-bottom: 12px;
+}
+.hero-left p {
+    margin-bottom: 25px;
+}
+.hero-right img {
+    width: 641px;
+    padding-top: 15px;
 }
 
 /* footer
