@@ -1,1 +1,81 @@
 @charset "UTF-8";
+
+/* 共通
+------------------------------ */
+html {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.align-center {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.btn {
+    line-height: 19px;
+    padding: 9.6px;
+}
+.cta {
+    line-height: 19px;
+    padding: 9.6px;
+}
+
+/* header
+------------------------------ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    /* top: 0;
+    left: 0;
+    z-index: 5;
+    position: sticky; */
+}
+.logo {
+    width: 165px;
+    padding-top: 4px;
+    margin: 0 10px 0 20px;
+}
+.nav-tool {
+    display: flex;
+}
+.main-nav {
+    display: flex;
+    padding: 0 5px;
+}
+.main-nav li {
+    margin: 0 5px;
+}
+.main-nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    padding: 0 10px;
+}
+.login {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    padding: 14.5px 0;
+}
+.nav-cta {
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+    padding: 14.5px 0;
+}
+
+/* main
+------------------------------ */
+.hero-layout {
+    display: flex;
+}
+
+/* footer
+------------------------------ */

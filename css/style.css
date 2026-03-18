@@ -1,1 +1,72 @@
 @charset "UTF-8";
+
+/* 共通
+------------------------------ */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    font-feature-settings: "palt";
+    /* ↑ カーニングの指示 */
+    color: #323339;
+}
+a {
+    color: #323339;
+}
+
+:root {
+    /* btn, footer-bg */
+    --main:#1fa9c3;
+    --btn-hover:#4bbacf;
+    /* bg, hover */
+    --sub:#f8f8f8;
+    /* cta */
+    --accent:#e59b25;
+    --cta-hoverr:#ebb359;
+}
+.btn {
+    line-height: 19px;
+    border-radius: 8px;
+    background-color: var(--main);
+    color: #fff;
+}
+.cta {
+    line-height: 19px;
+    border-radius: 8px;
+    background-color: var(--accent);
+    color: #fff;
+}
+
+/* header
+------------------------------ */
+/* header {
+    background-color: #fff;
+    box-shadow: 0 10px 8px #00000014;
+} */
+.login, .nav-cta {
+    border-radius: 0px;
+}
+
+/* main
+------------------------------ */
+.hero-background {
+    background-color: cadetblue;
+}
+
+.blog-more {
+    color: #67737c;
+    background-color: #fff;
+    border: solid thin #e6e6e6;
+}
+
+/* footer
+------------------------------ */
+.main-cta {
+    font-size: 24px;
+    line-height: 29px;
+}
