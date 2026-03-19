@@ -41,6 +41,14 @@ a {
     background-color: var(--accent);
     color: #fff;
 }
+.background {
+    background-color: var(--sub);
+}
+.section-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+}
 
 /* header
 ------------------------------ */
@@ -86,6 +94,20 @@ a {
 }
 .hero-left p {
     font-weight: 700;
+}
+
+/* ability */
+.ability-text h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
+}
+
+/* howto */
+.howto-item h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
 }
 
 /* blog */
