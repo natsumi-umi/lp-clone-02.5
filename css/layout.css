@@ -19,13 +19,11 @@ img {
     display: inline-block;
     text-align: center;
     line-height: 19px;
-    padding: 9.6px;
 }
 .cta {
     display: inline-block;
     text-align: center;
     line-height: 19px;
-    padding: 9.6px;
 }
 
 /* header
@@ -73,6 +71,7 @@ header {
 
 /* main
 ------------------------------ */
+/* hero */
 .hero-background {
     display: flex;
     align-items: center;
@@ -90,6 +89,9 @@ header {
 }
 .hero-left p {
     margin-bottom: 25px;
+}
+.sub-cta {
+    padding: 14.5px 9.6px;
 }
 .hero-right img {
     width: 641px;
